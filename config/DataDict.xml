@@ -1,21 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DataDicts>
-  <DataDict Name="源图像类型">
-    <DataItem Mean="实飞" Value="0"/>
-    <DataItem Mean="挂飞" Value="1"/>
+  <DataDict Name="A类型">
+    <DataItem Mean="**" Value="0"/>
+    <DataItem Mean="**" Value="1"/>
   </DataDict>
-  <DataDict Name="源波段类型">
-    <DataItem Mean="可见光" Value="0"/>
-    <DataItem Mean="红外" Value="1"/>
+  <DataDict Name="B类型">
+    <DataItem Mean="**" Value="0"/>
+    <DataItem Mean="**" Value="1"/>
   </DataDict>
-  <DataDict Name="干扰类型">
-    <DataItem Mean="烟雾" Value="0"/>
+  <DataDict Name="C类型">
+    <DataItem Mean="**" Value="0"/>
   </DataDict>
-  <DataDict Name="天气类型">
-    <DataItem Mean="晴" Value="0"/>
-    <DataItem Mean="阴" Value="1"/>
+  <DataDict Name="D类型">
+    <DataItem Mean="*" Value="0"/>
+    <DataItem Mean="*" Value="1"/>
   </DataDict>
-  <DataDict Name="伪装网类型">
-    <DataItem Mean="草地网" Value="0"/>
+  <DataDict Name="E类型">
+    <DataItem Mean="*" Value="0"/>
   </DataDict>
 </DataDicts>
