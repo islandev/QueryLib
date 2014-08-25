@@ -1,0 +1,4 @@
+<appSettings>
+    <add key="DataDictFile" value="./config/DataDict.xml"></add>
+    <add key="QueryTreeFile" value="./config/QueryTree.xml" />
+  </appSettings>
