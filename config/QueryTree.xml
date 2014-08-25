@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<QueryTrees>
+  <QueryTree Name="测试搜索树">
+    <MultiConcator Opt="And">
+        <!--<Compare Opt="Equal">
+          <Param DataType="System.Int32" Name="ImgSourceType"/>
+        </Compare>-->
+        <Compare Opt="Equal">
+          <Param DataType="System.Int32" OwnerProperty="tb_Base_Image" Name="ImgType"/>
+        </Compare>
+        <Compare Opt="Equal">
+          <Param DataType="System.Int32" Name="IFType"/>
+        </Compare>
+        <Compare Opt="Equal">
+          <MultiParam DataType="System.Int32" Name="ImgSourceType"/>
+        </Compare>
+        <Compare Opt="None">
+          <RangeParam DataType="System.Double" Name="AVtemperature" OwnerProperty="tb_Base_Weather"/>
+        </Compare>
+    </MultiConcator>
+  </QueryTree>
+</QueryTrees>
